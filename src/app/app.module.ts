@@ -4,15 +4,27 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { routing } from './app.routing';
+import { DeloresComponent } from './delores/delores.component';
+import { MaeveComponent } from './maeve/maeve.component';
+import { BernardComponent } from './bernard/bernard.component';
+import { FordComponent } from './ford/ford.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DeloresComponent,
+    MaeveComponent,
+    BernardComponent,
+    FordComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
