@@ -10,6 +10,7 @@ import { DeloresComponent } from './delores/delores.component';
 import { MaeveComponent } from './maeve/maeve.component';
 import { BernardComponent } from './bernard/bernard.component';
 import { FordComponent } from './ford/ford.component';
+import { DeloresPipePipe } from './delores-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FordComponent } from './ford/ford.component';
     DeloresComponent,
     MaeveComponent,
     BernardComponent,
-    FordComponent
+    FordComponent,
+    DeloresPipePipe
   ],
   imports: [
     BrowserModule,
